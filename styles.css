@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: hsl(0, 0%, 96%);
     margin: 0;
     padding: 0;
     color: #333;
@@ -49,4 +49,109 @@ img {
 footer{
     max-width: 1000px;
     margin: auto;
+}
+
+ nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Горизонтальне розташування */
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #2d0fd4;
+}
+
+/* Загальні налаштування */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1f1f1f;
+    color: #3cff00;
+}
+
+/* Заголовок */
+header {
+    background-color: #0f018d;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(163, 21, 21, 0.6);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #5bc514;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Навігація */
+nav {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #00695c;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fff;
+    border-bottom: 2px solid #00695c;
+}
+
+/* Основний блок */
+main {
+    padding: 40px;
+    background-color: #292929;
+}
+
+/* Карточки послуг */
+.service-card {
+    background-color: #4400b1;
+    border-left: 6px solid #00695c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(255, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+
+.service-card:hover {
+    transform: scale(1.02);
+}
+
+/* Підвал */
+footer {
+    background-color: #050f46;
+    color: #0011ff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+    border-top: 1px solid #2008a3;
 }
